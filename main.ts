@@ -9,7 +9,7 @@ import { join } from "node:path";
 // The entry line itself: a robot runs a diagnostic on its own small
 // talk, and the diagnostic blames the conversation in progress.
 const entryLine: string =
-  "I ran a diagnostic on my small talk and it returned three errors, all of them this conversation.";
+  "I ran a diagnostic on my small talk in this elevator and it returned three errors, all of them this conversation.";
 
 const outDir: string = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 const target: string = join(outDir, "entry.txt");
